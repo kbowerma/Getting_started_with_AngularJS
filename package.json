@@ -1,0 +1,27 @@
+{
+  "name": "self-registration",
+  "version": "0.0.1",
+  "engines": [
+    "node >= 0.4.0"
+  ],
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "*",
+    "ejs-ext": "*",
+    "express": "~2.x",
+    "railway": ">= 0.2.6",
+    "jugglingdb": ">= 0.1.0",
+    "coffee-script": ">= 1.1.1",
+    "mongoose": "~3.2.1",
+    "async": "~0.1.22",
+    "request": "~2.11.4"
+  },
+  "devDependencies": {
+    "nodeunit": "*",
+    "sinon": "*",
+    "semicov": "*"
+  },
+  "scripts": {
+    "test": "nodeunit test/*/*"
+  }
+}
